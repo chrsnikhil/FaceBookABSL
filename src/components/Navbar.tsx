@@ -5,8 +5,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <nav className="fixed top-0 w-full bg-white dark:bg-gray-800 shadow-sm z-50">
       <div className="max-w-7xl mx-auto px-4">

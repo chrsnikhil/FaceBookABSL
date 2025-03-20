@@ -18,7 +18,7 @@ const CreatePost = () => {
           />
         </div>
         <button className="flex-1 bg-gray-100 dark:bg-gray-700 text-gray-500 dark:text-gray-400 rounded-full py-2.5 px-4 text-left hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
-          What's on your mind?
+          What&apos;s on your mind?
         </button>
       </div>
       

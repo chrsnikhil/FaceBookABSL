@@ -1,9 +1,18 @@
 'use client';
 
+import React from 'react';
 import Image from 'next/image';
 import { AiOutlinePlus } from 'react-icons/ai';
 
-const stories = [
+interface Story {
+  id: number;
+  name: string;
+  image: string;
+  profile: string;
+  isCreate?: boolean;
+}
+
+const stories: Story[] = [
   {
     id: 1,
     name: 'Create Story',
@@ -37,7 +46,7 @@ const stories = [
   },
 ];
 
-const StorySection = () => {
+const StorySection: React.FC = () => {
   return (
     <div className="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm">
       <div className="flex space-x-2 overflow-x-auto pb-2 scrollbar-hide">
