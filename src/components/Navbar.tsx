@@ -16,7 +16,7 @@ const Navbar = () => {
             <Link href="/" className="flex-shrink-0">
               <div className="h-8 w-8 relative">
                 <Image
-                  src="/facebook-logo.png"
+                  src="/download.jpeg"
                   alt="Facebook"
                   fill
                   className="text-blue-500"
